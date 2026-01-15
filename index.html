@@ -605,6 +605,8 @@
         .footer-bottom-links a { color: #b0b0b0; text-decoration: none; font-size: 14px; transition: color .3s; }
         .footer-bottom-links a:hover { color: var(--red); }
         .footer-bottom p { margin: 8px 0; font-size: 14px; color: #888; }
+        /* Performance optimizations */
+        .borough-map-section, #sa-service-areas, footer { content-visibility: auto; contain-intrinsic-size: auto 500px; }
     </style>
 </head>
 <body>
@@ -663,7 +665,7 @@
                         <div class="services-grid">
                 <!-- WOLF GAS OVEN REPAIR -->
                 <div class="service" id="wolf-gas-oven-repair">
-                    <div class="service-image"><img src="assets/wolf-gas-oven.webp" alt="Wolf Gas Oven Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-gas-oven.webp" alt="Wolf Gas Oven Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Gas Oven Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Gas Oven Models We Service:</h3>
@@ -697,7 +699,7 @@
                 </div>
                 <!-- WOLF ELECTRIC OVEN REPAIR -->
                 <div class="service" id="wolf-electric-oven-repair">
-                    <div class="service-image"><img src="assets/wolf-electric-oven.webp" alt="Wolf Electric Oven Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-electric-oven.webp" alt="Wolf Electric Oven Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Electric Oven Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Electric Oven Models We Service:</h3>
@@ -731,7 +733,7 @@
                 </div>
                 <!-- WOLF INDUCTION RANGE REPAIR -->
                 <div class="service" id="wolf-induction-range-repair">
-                    <div class="service-image"><img src="assets/wolf-induction-range.webp" alt="Wolf Induction Range Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-induction-range.webp" alt="Wolf Induction Range Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Induction Range Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Induction Models We Service:</h3>
@@ -765,7 +767,7 @@
                 </div>
                 <!-- WOLF DUAL FUEL RANGE REPAIR -->
                 <div class="service" id="wolf-dual-fuel-range-repair">
-                    <div class="service-image"><img src="assets/wolf-dual-fuel-range.webp" alt="Wolf Dual Fuel Range Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-dual-fuel-range.webp" alt="Wolf Dual Fuel Range Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Dual Fuel Range Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Dual Fuel Models We Service:</h3>
@@ -801,7 +803,7 @@
             <div class="services-grid" style="margin-top: 20px;">
                 <!-- WOLF COMMERCIAL OVEN REPAIR -->
                 <div class="service" id="wolf-commercial-oven-repair">
-                    <div class="service-image"><img src="assets/wolf-commercial-oven.png" alt="Wolf Commercial Oven Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-commercial-oven.webp" alt="Wolf Commercial Oven Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Commercial Oven Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Commercial Models We Service:</h3>
@@ -835,7 +837,7 @@
                 </div>
                 <!-- WOLF STEAM OVEN REPAIR -->
                 <div class="service" id="wolf-steam-oven-repair">
-                    <div class="service-image"><img src="assets/wolf-steam-oven.png" alt="Wolf Steam Oven Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-steam-oven.webp" alt="Wolf Steam Oven Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Steam Oven Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Steam Oven Models We Service:</h3>
@@ -869,7 +871,7 @@
                 </div>
                 <!-- WOLF WALL OVEN REPAIR -->
                 <div class="service" id="wolf-range-repair">
-                    <div class="service-image"><img src="assets/wolf-range.webp" alt="Wolf Range Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-range.webp" alt="Wolf Range Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Range Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Range Models We Service:</h3>
@@ -903,7 +905,7 @@
                 </div>
                 <!-- WOLF WALL OVEN REPAIR -->
                 <div class="service" id="wolf-wall-oven-repair">
-                    <div class="service-image"><img src="assets/wolf-wall-oven.png" alt="Wolf Wall Oven Repair NYC" loading="lazy"></div>
+                    <div class="service-image"><img src="assets/wolf-wall-oven.webp" alt="Wolf Wall Oven Repair NYC" loading="lazy" width="300" height="300"></div>
                     <a href="#" class="learn-more-btn" onclick="toggleService(this); return false;">Wolf Wall Oven Repair <span>Learn More</span></a>
                     <div class="service-types">
                         <h3>Wall Oven Models We Service:</h3>
